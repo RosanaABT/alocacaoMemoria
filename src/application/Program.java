@@ -18,7 +18,7 @@ public class Program {
 		double somaAltura = 0.0;
 		
 		System.out.println("Digite a altura de "+ n + " pessoas:");
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < vect.length; i++) {
 			vect[i] = sc.nextDouble();
 			somaAltura += vect[i];
 		}
